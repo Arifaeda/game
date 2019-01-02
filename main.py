@@ -4,6 +4,7 @@
 
 """
 Weakness and strengths.
+-------------------------
 
 Jade < Garnet
 Garnet < Opal
@@ -13,10 +14,9 @@ Moonstone < Rose Quartz
 Rose Quartz < Tanzanite
 Tanzanite < Diamond
 Diamond < Jade
-"""
 
-"""
 Places.
+--------------------------
 
 Gale Plateau
 Lykos Taiga
@@ -26,10 +26,9 @@ Nefeloma Lake
 Titania's Forest
 Elder Woods
 Lumina City
-"""
 
-"""
 Elites.
+--------------------------
 
 Zephyr
 Vulpia
