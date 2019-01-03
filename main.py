@@ -30,14 +30,14 @@ Lumina City
 Elites.
 --------------------------
 
-Zephyr
-Vulpia
-Hephael
-Nyssa
-Diane
-Roselia
-Alaric
-Lucille
+Zephyr-Support
+Vulpia-Warrior
+Hephael-Warrior
+Nyssa-Warrior
+Diane-Support
+Roselia-Support
+Alaric-Warrior
+Lucille-Tank
 """
 
 next_line = ""
