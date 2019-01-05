@@ -1,4 +1,3 @@
-
 # Title Screen.
 
 print("| ======================================================================================================= |")
@@ -106,36 +105,85 @@ while True:
     
     
 # Naming:
-name = input("Hello Mystic! You have stumbled upon the Crystalline Realm! May I ask, what is your name? ")
-
+name = input("???: Hero, what is your name?")
 while True:
-    yes_no_name = input(f'Ah, your name is {name}, did I get that right? [y/n] ')
-    if yes_no_name == "y" or "Y" or "yes" or "YES":
-        break
-    if yes_no_name == "n" or "N" or "no" or "NO":
-        name = input("What is your name?")
-        
-        
-        
+  yes_no_name = input(f'???: So, your name is {name},is that correct?[y/n]')
+  if yes_no_name == "y" or "Y" or "yes" or "YES":
+    break
+  #very bugged from here on out
+  if yes_no_name == "n" or "N" or "no" or "NO":
+    name = input("What is your name?")
+  else:
+    yes_no_name = input(f'???: So, your name is {name},is that correct?[y/n]')
+
+
+#Name Easter Eggs
+"""if name == "Lunaarii" or "lunaarii" or "Satanmyninjas" or "satanmyninjas" :
+  #print(name)
+  nameeasteregg1_1 = input("???: An excellent name...")
+  while True:
+    if nameeasteregg1_1 == " ":
+      break
+    else:
+      nameeasteregg1_1 = input("???: An excellent name...")
+  
+    
+  nameeasteregg1_2 = input("???: ...in some strange way, it sounds...familiar...")
+  while True:
+    if nameeasteregg1_2 == " ":
+      break
+    else:
+      nameeasteregg1_2 = input("???: ...in some strange way, it sounds...familiar...")
+ 
+    
+  nameeasteregg1_3 = input("???: Ah, nevermind... just forget I said anything...")
+  while True:
+    if nameeasteregg1_3 == " ":
+      break
+    else:
+      nameeasteregg1_3 = input("???: Ah, nevermind... just forget I said anything...")
+elif name != "Lunaarii" or "lunaarii" or "Satanmyninjas" or "satanmyninjas" :
+    pass"""
+
+
+
+  
 
 # Dialogue
-player_element_before = input(
-    "In this realm, every mystic has a birthstone or crystal, their crystals are infused with elemental magic, their stone determines what abilities they are able to wield and bend. It seems like you don't have one... ")
+lightdialogue9 = input("???: So, in this realm, every mystic has a crystal assigned to them at birth, their crystals are infused with elemental magic, their stone determines what abilities they are able to wield and bend. It seems like you don't have one yet...")
 while True:
-    if player_element_before == " ":
-        break
-    else:
-        player_element_before = input(
-            "In this realm, every mystic has a birthstone or crystal, their crystals are infused with elemental magic,their stone determines what abilities they are able to wield and bend. It seems like you don't have one... ")
-player_element_before2 = input(
-    "...luckily for you, I brought some stones with me, pick one, choose wisely... ")
-while True:
-    if player_element_before2 == " ":
-        break
-    else:
-        player_element_before2 = input(
-            "...luckily for you, I brought some stones with me, pick one, choose wisely... ")
+  if lightdialogue9 == " ":
+    break
+  else:
+    lightdialogue9 = input("???: So, in this realm, every mystic has a crystal assigned to them at birth, their crystals are infused with elemental magic, their stone determines what abilities they are able to wield and bend. It seems like you don't have one yet...")
 
+
+
+lightdialogue10 = input("???: ...I have brought before you many mystical crystals from all over the Crystalline Realm...")
+while True:
+  if lightdialogue10 == " ":
+    break
+  else:
+    lightdialogue10 = input("???: ...I have brought before you many mystical crystals from all over the Crystalline Realm...")
+
+
+lightdialogue11 = input("???: ...just choose the one that calls out to you most...")
+while True:
+  if lightdialogue11 == " ":
+    break
+  else:
+    lightdialogue11 = input("???: ...just choose the one that calls out to you most...")
+
+
+lightdialogue12 = input("???: ...please choose wisely...")
+while True:
+  if lightdialogue12 == " ":
+    break
+  else:
+    lightdialogue12 = input("???: ...please choose wisely...")
+    
+    
+    
 # Crystal Selection
 while True:
     player_crystal = input("  Jade ~ Rose-quartz ~ Sapphire ~ Celestite ~ Garnet ~ Tanzanite ~ Diamond ~ Opal ")
