@@ -1,0 +1,15 @@
+PLACE AFTER LINE 35
+
+if name == "Lunaarii" or "satanmyninjas":
+  "???: An excellent name..."
+  "???: ...in some strange way, it sounds...familiar..."
+  "???: Ah, nevermind... just forget I said anything...")
+
+elif name != "Lunaarii" or "satanmyninjas":
+    pass
+
+========================================================================================================================
+
+more ideas pending
+
+add player state file when needed but will be deleted for now
