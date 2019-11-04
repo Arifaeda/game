@@ -6,7 +6,6 @@ print("| =======================================================================
 print("                                                                                                       ")
 print("                                 Press enter to progress through the game.                                    ")
 print("                                                                                                       ")
-
 opening = input("*** Regaining consciousness, your entire being is immersed in a brilliant show\n"
                 "of lights and gentle colors. Your vision is overwhelmed, but a faint voice catches\n"
                 "your attention. You listen closely, as you close your eyes tightly... ***")
