@@ -1,5 +1,5 @@
 # Independent-Game
-Crystalline Realm is a small text-based RPG.
+a small text-based RPG.
 **Please note that things will likely change during the development of the game.
 
 *Current skeleton of the ranks, places, etc below:*
